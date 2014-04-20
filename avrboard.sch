@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:avrboard-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -275,6 +276,202 @@ F 3 "" H 1250 6500 60  0000 C CNN
 $EndComp
 Text Label 1450 6400 1    60   ~ 0
 +5V
+Text Label 1550 6400 1    60   ~ 0
+RXD
+Text Label 1650 6400 1    60   ~ 0
+TXD
+Text Label 5250 4550 3    60   ~ 0
+RXD
+Text Label 5150 4550 3    60   ~ 0
+TXD
+$Comp
+L C C5
+U 1 1 534E076B
+P 1950 6550
+F 0 "C5" H 1950 6650 40  0000 L CNN
+F 1 "0.1uF" H 1956 6465 40  0000 L CNN
+F 2 "" H 1988 6400 30  0000 C CNN
+F 3 "" H 1950 6550 60  0000 C CNN
+	1    1950 6550
+	0    -1   -1   0   
+$EndComp
+Text Label 2200 6550 0    60   ~ 0
+RESET
+Text Label 5450 4850 0    60   ~ 0
+RESET
+Text Notes 1550 850  0    60   ~ 0
+POWER SOURCE
+Text Notes 1100 7350 0    60   ~ 0
+FTDI PROGRAMMER\nINTERFACE
+$Comp
+L CONN_3X2 P2
+U 1 1 534E0CED
+P 3800 6900
+F 0 "P2" H 3800 7150 50  0000 C CNN
+F 1 "ICSP" V 3800 6950 40  0000 C CNN
+F 2 "" H 3800 6900 60  0000 C CNN
+F 3 "" H 3800 6900 60  0000 C CNN
+	1    3800 6900
+	1    0    0    -1  
+$EndComp
+Text Label 6850 4550 3    60   ~ 0
+PB0
+Text Label 6750 4550 3    60   ~ 0
+PB1
+Text Label 6650 4550 3    60   ~ 0
+PB2
+Text Label 6550 4550 3    60   ~ 0
+PB3
+Text Label 6450 4550 3    60   ~ 0
+PB4
+Text Label 6000 4550 3    60   ~ 0
+PC0
+Text Label 5900 4550 3    60   ~ 0
+PC1
+Text Label 5800 4550 3    60   ~ 0
+PC2
+Text Label 5700 4550 3    60   ~ 0
+PC3
+Text Label 5600 4550 3    60   ~ 0
+PC4
+Text Label 5500 4550 3    60   ~ 0
+PC5
+Text Label 5050 4550 3    60   ~ 0
+PD2
+Text Label 4950 4550 3    60   ~ 0
+PD3
+Text Label 4850 4550 3    60   ~ 0
+PD4
+Text Label 4750 4550 3    60   ~ 0
+PD5
+Text Label 4650 4550 3    60   ~ 0
+PD6
+Text Label 4550 4550 3    60   ~ 0
+PD7
+Text Label 4250 6750 0    60   ~ 0
++5V
+Text GLabel 4250 6950 2    60   Input ~ 0
+GND
+Text Label 4250 6850 0    60   ~ 0
+PB3
+Text Label 3350 6750 2    60   ~ 0
+PB4
+Text Label 3350 6850 2    60   ~ 0
+PB5
+Text Label 3350 6950 2    60   ~ 0
+RESET
+$Comp
+L CONN_8 PB1
+U 1 1 534E17F6
+P 1150 2850
+F 0 "PB1" V 1100 2850 60  0000 C CNN
+F 1 "PORTB" V 1200 2850 60  0000 C CNN
+F 2 "" H 1150 2850 60  0000 C CNN
+F 3 "" H 1150 2850 60  0000 C CNN
+	1    1150 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_8 PC1
+U 1 1 534E180A
+P 1150 3750
+F 0 "PC1" V 1100 3750 60  0000 C CNN
+F 1 "PORTC" V 1200 3750 60  0000 C CNN
+F 2 "" H 1150 3750 60  0000 C CNN
+F 3 "" H 1150 3750 60  0000 C CNN
+	1    1150 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_8 PD1
+U 1 1 534E181E
+P 1150 4650
+F 0 "PD1" V 1100 4650 60  0000 C CNN
+F 1 "PORTD" V 1200 4650 60  0000 C CNN
+F 2 "" H 1150 4650 60  0000 C CNN
+F 3 "" H 1150 4650 60  0000 C CNN
+	1    1150 4650
+	-1   0    0    1   
+$EndComp
+Text Notes 1600 5250 2    60   ~ 0
+I/O HEADERS
+Text Label 6950 4750 3    60   ~ 0
+PB5
+Text Label 6000 4800 3    60   ~ 0
+PB7
+Text Label 6450 4800 3    60   ~ 0
+PB6
+Text Label 1550 3200 0    60   ~ 0
+PB0
+Text Label 1550 3100 0    60   ~ 0
+PB1
+Text Label 1550 3000 0    60   ~ 0
+PB2
+Text Label 1550 2900 0    60   ~ 0
+PB3
+Text Label 1550 2800 0    60   ~ 0
+PB4
+Text Label 1550 2700 0    60   ~ 0
+PB5
+Text Label 1550 2600 0    60   ~ 0
+PB6
+Text Label 1550 2500 0    60   ~ 0
+PB7
+Text Label 1550 4100 0    60   ~ 0
+PC0
+Text Label 1550 4000 0    60   ~ 0
+PC1
+Text Label 1550 3900 0    60   ~ 0
+PC2
+Text Label 1550 3800 0    60   ~ 0
+PC3
+Text Label 1550 3700 0    60   ~ 0
+PC4
+Text Label 1550 3600 0    60   ~ 0
+PC5
+Text Label 1550 3500 0    60   ~ 0
+RESET
+Text Label 1550 3400 0    60   ~ 0
+PC7
+Text Label 1550 5000 0    60   ~ 0
+RXD
+Text Label 1550 4900 0    60   ~ 0
+TXD
+Text Label 1550 4800 0    60   ~ 0
+PD2
+Text Label 1550 4700 0    60   ~ 0
+PD3
+Text Label 1550 4600 0    60   ~ 0
+PD4
+Text Label 1550 4500 0    60   ~ 0
+PD5
+Text Label 1550 4400 0    60   ~ 0
+PD6
+Text Label 1550 4300 0    60   ~ 0
+PD7
+$Comp
+L CONN_5 PP1
+U 1 1 534E259C
+P 2650 3550
+F 0 "PP1" V 2600 3550 50  0000 C CNN
+F 1 "PWRPORT" V 2700 3550 50  0000 C CNN
+F 2 "" H 2650 3550 60  0000 C CNN
+F 3 "" H 2650 3550 60  0000 C CNN
+	1    2650 3550
+	-1   0    0    1   
+$EndComp
+Text Notes 2500 3950 0    60   ~ 0
+POWER HEADER
+Text GLabel 3100 3350 2    60   Input ~ 0
+GND
+Text GLabel 3100 3450 2    60   Input ~ 0
+GND
+Text Label 3400 3550 0    60   ~ 0
++5V
+Text Label 3400 3650 0    60   ~ 0
++5V
+Text Notes 3500 7200 0    60   ~ 0
+ISP INTERFACE
 Wire Wire Line
 	1650 1500 1650 1900
 Wire Wire Line
@@ -310,7 +507,7 @@ Connection ~ 4550 2500
 Wire Wire Line
 	6850 2400 6850 2600
 Wire Wire Line
-	6850 2500 6550 2500
+	6250 2500 6850 2500
 Wire Wire Line
 	6550 2500 6550 2600
 Connection ~ 6850 2500
@@ -360,99 +557,27 @@ Wire Wire Line
 	1250 6650 1250 6500
 Wire Wire Line
 	1450 6650 1450 6400
-Text Label 1550 6400 1    60   ~ 0
-RXD
-Text Label 1650 6400 1    60   ~ 0
-TXD
 Wire Wire Line
 	1550 6650 1550 6400
 Wire Wire Line
 	1650 6650 1650 6400
-Text Label 5250 4550 3    60   ~ 0
-RXD
-Text Label 5150 4550 3    60   ~ 0
-TXD
 Wire Wire Line
 	5150 4500 5150 4550
 Wire Wire Line
 	5250 4500 5250 4550
-$Comp
-L C C5
-U 1 1 534E076B
-P 1950 6550
-F 0 "C5" H 1950 6650 40  0000 L CNN
-F 1 "0.1uF" H 1956 6465 40  0000 L CNN
-F 2 "" H 1988 6400 30  0000 C CNN
-F 3 "" H 1950 6550 60  0000 C CNN
-	1    1950 6550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1750 6650 1750 6550
-Text Label 2200 6550 0    60   ~ 0
-RESET
 Wire Wire Line
 	2150 6550 2200 6550
-Text Label 5450 4850 0    60   ~ 0
-RESET
 Connection ~ 5400 4700
 Wire Wire Line
 	1350 6650 1350 6550
 Wire Wire Line
 	1350 6550 1250 6550
 Connection ~ 1250 6550
-Text Notes 1550 850  0    60   ~ 0
-POWER SOURCE
-Text Notes 1100 7350 0    60   ~ 0
-FTDI PROGRAMMER\nINTERFACE
-$Comp
-L CONN_3X2 P2
-U 1 1 534E0CED
-P 3800 6900
-F 0 "P2" H 3800 7150 50  0000 C CNN
-F 1 "ICSP" V 3800 6950 40  0000 C CNN
-F 2 "" H 3800 6900 60  0000 C CNN
-F 3 "" H 3800 6900 60  0000 C CNN
-	1    3800 6900
-	1    0    0    -1  
-$EndComp
-Text Label 6850 4550 3    60   ~ 0
-PB0
-Text Label 6750 4550 3    60   ~ 0
-PB1
-Text Label 6650 4550 3    60   ~ 0
-PB2
-Text Label 6550 4550 3    60   ~ 0
-PB3
-Text Label 6450 4550 3    60   ~ 0
-PB4
-Text Label 6000 4550 3    60   ~ 0
-PC0
-Text Label 5900 4550 3    60   ~ 0
-PC1
-Text Label 5800 4550 3    60   ~ 0
-PC2
 Wire Wire Line
 	5450 4850 5400 4850
 Connection ~ 5400 4850
-Text Label 5700 4550 3    60   ~ 0
-PC3
-Text Label 5600 4550 3    60   ~ 0
-PC4
-Text Label 5500 4550 3    60   ~ 0
-PC5
-Text Label 5050 4550 3    60   ~ 0
-PD2
-Text Label 4950 4550 3    60   ~ 0
-PD3
-Text Label 4850 4550 3    60   ~ 0
-PD4
-Text Label 4750 4550 3    60   ~ 0
-PD5
-Text Label 4650 4550 3    60   ~ 0
-PD6
-Text Label 4550 4550 3    60   ~ 0
-PD7
 Wire Wire Line
 	4550 4550 4550 4500
 Wire Wire Line
@@ -487,96 +612,27 @@ Wire Wire Line
 	6750 4550 6750 4500
 Wire Wire Line
 	6850 4550 6850 4500
-Text Label 4250 6750 0    60   ~ 0
-+5V
-Text GLabel 4250 6950 2    60   Input ~ 0
-GND
 Wire Wire Line
 	4200 6950 4250 6950
 Wire Wire Line
 	4200 6750 4250 6750
-Text Label 4250 6850 0    60   ~ 0
-PB3
 Wire Wire Line
 	4200 6850 4250 6850
-Text Label 3350 6750 2    60   ~ 0
-PB4
 Wire Wire Line
 	3350 6750 3400 6750
-Text Label 3350 6850 2    60   ~ 0
-PB5
 Wire Wire Line
 	3400 6850 3350 6850
-Text Label 3350 6950 2    60   ~ 0
-RESET
 Wire Wire Line
 	3400 6950 3350 6950
-$Comp
-L CONN_8 PB1
-U 1 1 534E17F6
-P 1150 2850
-F 0 "PB1" V 1100 2850 60  0000 C CNN
-F 1 "PORTB" V 1200 2850 60  0000 C CNN
-F 2 "" H 1150 2850 60  0000 C CNN
-F 3 "" H 1150 2850 60  0000 C CNN
-	1    1150 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_8 PC1
-U 1 1 534E180A
-P 1150 3750
-F 0 "PC1" V 1100 3750 60  0000 C CNN
-F 1 "PORTC" V 1200 3750 60  0000 C CNN
-F 2 "" H 1150 3750 60  0000 C CNN
-F 3 "" H 1150 3750 60  0000 C CNN
-	1    1150 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_8 PD1
-U 1 1 534E181E
-P 1150 4650
-F 0 "PD1" V 1100 4650 60  0000 C CNN
-F 1 "PORTD" V 1200 4650 60  0000 C CNN
-F 2 "" H 1150 4650 60  0000 C CNN
-F 3 "" H 1150 4650 60  0000 C CNN
-	1    1150 4650
-	-1   0    0    1   
-$EndComp
-Text Notes 1600 5250 2    60   ~ 0
-I/O HEADERS
-Text Label 6950 4750 3    60   ~ 0
-PB5
 Wire Wire Line
 	6950 4750 6950 4700
 Connection ~ 6950 4700
-Text Label 6000 4800 3    60   ~ 0
-PB7
 Wire Wire Line
 	6000 4800 6000 4750
 Connection ~ 6000 4750
-Text Label 6450 4800 3    60   ~ 0
-PB6
 Wire Wire Line
 	6450 4800 6450 4750
 Connection ~ 6450 4750
-Text Label 1550 3200 0    60   ~ 0
-PB0
-Text Label 1550 3100 0    60   ~ 0
-PB1
-Text Label 1550 3000 0    60   ~ 0
-PB2
-Text Label 1550 2900 0    60   ~ 0
-PB3
-Text Label 1550 2800 0    60   ~ 0
-PB4
-Text Label 1550 2700 0    60   ~ 0
-PB5
-Text Label 1550 2600 0    60   ~ 0
-PB6
-Text Label 1550 2500 0    60   ~ 0
-PB7
 Wire Wire Line
 	1500 2500 1550 2500
 Wire Wire Line
@@ -593,22 +649,6 @@ Wire Wire Line
 	1500 3100 1550 3100
 Wire Wire Line
 	1500 3200 1550 3200
-Text Label 1550 4100 0    60   ~ 0
-PC0
-Text Label 1550 4000 0    60   ~ 0
-PC1
-Text Label 1550 3900 0    60   ~ 0
-PC2
-Text Label 1550 3800 0    60   ~ 0
-PC3
-Text Label 1550 3700 0    60   ~ 0
-PC4
-Text Label 1550 3600 0    60   ~ 0
-PC5
-Text Label 1550 3500 0    60   ~ 0
-RESET
-Text Label 1550 3400 0    60   ~ 0
-PC7
 Wire Wire Line
 	1550 4100 1500 4100
 Wire Wire Line
@@ -625,22 +665,6 @@ Wire Wire Line
 	1500 3500 1550 3500
 Wire Wire Line
 	1500 3400 1550 3400
-Text Label 1550 5000 0    60   ~ 0
-RXD
-Text Label 1550 4900 0    60   ~ 0
-TXD
-Text Label 1550 4800 0    60   ~ 0
-PD2
-Text Label 1550 4700 0    60   ~ 0
-PD3
-Text Label 1550 4600 0    60   ~ 0
-PD4
-Text Label 1550 4500 0    60   ~ 0
-PD5
-Text Label 1550 4400 0    60   ~ 0
-PD6
-Text Label 1550 4300 0    60   ~ 0
-PD7
 Wire Wire Line
 	1550 5000 1500 5000
 Wire Wire Line
@@ -657,29 +681,6 @@ Wire Wire Line
 	1500 4400 1550 4400
 Wire Wire Line
 	1500 4300 1550 4300
-$Comp
-L CONN_5 PP1
-U 1 1 534E259C
-P 2650 3550
-F 0 "PP1" V 2600 3550 50  0000 C CNN
-F 1 "PWRPORT" V 2700 3550 50  0000 C CNN
-F 2 "" H 2650 3550 60  0000 C CNN
-F 3 "" H 2650 3550 60  0000 C CNN
-	1    2650 3550
-	-1   0    0    1   
-$EndComp
-Text Notes 2500 3950 0    60   ~ 0
-POWER HEADER
-Text GLabel 3100 3350 2    60   Input ~ 0
-GND
-Text GLabel 3100 3450 2    60   Input ~ 0
-GND
-Text Label 3400 3550 0    60   ~ 0
-+5V
-Text Label 3400 3650 0    60   ~ 0
-+5V
-Text Label 3400 3750 0    60   ~ 0
-AREF
 Wire Wire Line
 	3050 3350 3100 3350
 Wire Wire Line
@@ -688,8 +689,11 @@ Wire Wire Line
 	3050 3550 3400 3550
 Wire Wire Line
 	3050 3650 3400 3650
+Text Label 3400 3750 0    60   ~ 0
++5V
 Wire Wire Line
 	3050 3750 3400 3750
-Text Notes 3500 7200 0    60   ~ 0
-ISP INTERFACE
+Wire Wire Line
+	6250 2500 6250 2600
+Connection ~ 6550 2500
 $EndSCHEMATC
