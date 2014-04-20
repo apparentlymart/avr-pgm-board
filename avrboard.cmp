@@ -1,4 +1,67 @@
-Cmp-Mod V01 Created by CvPcb (2013-10-26 BZR 4415)-product date = Tue 15 Apr 2014 11:21:54 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sun 20 Apr 2014 09:54:21 AM PDT
+
+BeginCmp
+TimeStamp = /534CBCD4;
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534CBCF0;
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534E076B;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353F975;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = Capacitors:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353FA96;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = Capacitors:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353FBB6;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353FBAB;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /534CB9E9;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = led:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /534CBA03;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = led:LED-3MM;
+EndCmp
 
 BeginCmp
 TimeStamp = /534CB8EA;
@@ -8,65 +71,23 @@ IdModule  = dip_sockets:DIP-28__300;
 EndCmp
 
 BeginCmp
+TimeStamp = /534D4AAC;
+Reference = P1;
+ValeurCmp = FTDI;
+IdModule  = connect:SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /534E0CED;
+Reference = P2;
+ValeurCmp = ICSP;
+IdModule  = pin_array:pin_array_3x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /534E17F6;
 Reference = PB1;
 ValeurCmp = PORTB;
-IdModule  = connect:SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB845;
-Reference = X1;
-ValeurCmp = 16MHz;
-IdModule  = Crystals_RevB_20Apr2013:Crystal_HC48-U_Vertical_RevA_09Aug2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB6E6;
-Reference = U1;
-ValeurCmp = 7805;
-IdModule  = discret:LM78XXV;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB8A7;
-Reference = SW1;
-ValeurCmp = RESET;
-IdModule  = discret:SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB754;
-Reference = R3;
-ValeurCmp = 110k;
-IdModule  = discret:R4;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB727;
-Reference = R2;
-ValeurCmp = 220;
-IdModule  = discret:R4;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB713;
-Reference = R1;
-ValeurCmp = 220;
-IdModule  = discret:R4;
-EndCmp
-
-BeginCmp
-TimeStamp = /534E259C;
-Reference = PP1;
-ValeurCmp = PWRPORT;
-IdModule  = connect:SIL-5;
-EndCmp
-
-BeginCmp
-TimeStamp = /534E181E;
-Reference = PD1;
-ValeurCmp = PORTD;
 IdModule  = connect:SIL-8;
 EndCmp
 
@@ -78,66 +99,52 @@ IdModule  = connect:SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /534CB7BE;
-Reference = C1;
-ValeurCmp = 10uF;
-IdModule  = capacitors:CP_5x6mm;
+TimeStamp = /534E181E;
+Reference = PD1;
+ValeurCmp = PORTD;
+IdModule  = connect:SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /534E0CED;
-Reference = P2;
-ValeurCmp = ICSP;
-IdModule  = pin_array:pin_array_3x2;
+TimeStamp = /534E259C;
+Reference = PP1;
+ValeurCmp = PWRPORT;
+IdModule  = connect:SIL-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /534D4AAC;
-Reference = P1;
-ValeurCmp = FTDI;
-IdModule  = connect:SIL-6;
+TimeStamp = /534CB713;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /534CBA03;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = led:LED-3MM;
+TimeStamp = /534CB727;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /534CB9E9;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = led:LED-3MM;
+TimeStamp = /534CB754;
+Reference = R3;
+ValeurCmp = 110k;
+IdModule  = discret:R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /534E076B;
-Reference = C5;
-ValeurCmp = 0.1uF;
-IdModule  = discret:C1;
+TimeStamp = /534CB8A7;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
-TimeStamp = /534CBCF0;
-Reference = C4;
-ValeurCmp = 22pF;
-IdModule  = discret:C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CBCD4;
-Reference = C3;
-ValeurCmp = 22pF;
-IdModule  = discret:C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /534CB7E4;
-Reference = C2;
-ValeurCmp = 10uF;
-IdModule  = capacitors:CP_5x6mm;
+TimeStamp = /534CB845;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Crystals_RevB_20Apr2013:Crystal_HC48-U_Vertical_RevA_09Aug2010;
 EndCmp
 
 EndListe
