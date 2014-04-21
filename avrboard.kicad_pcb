@@ -236,15 +236,15 @@
     )
   )
 
-  (module led:LED-3MM (layer F.Cu) (tedit 5354005D) (tstamp 534E2353)
+  (module led:LED-3MM (layer F.Cu) (tedit 53546BCA) (tstamp 534E2353)
     (at 128.905 69.85 270)
     (descr "LED 3mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 3mm 3MM 100mil 2,54mm")
     (path /534CB9E9)
-    (fp_text reference D1 (at 1.905 -1.905 270) (layer F.SilkS)
+    (fp_text reference D1 (at 3.175 -0.635 270) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0889)))
     )
-    (fp_text value LED (at -1.905 -1.905 450) (layer F.SilkS)
+    (fp_text value LED (at 3.175 0.635 450) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0889)))
     )
     (fp_line (start 1.8288 1.27) (end 1.8288 -1.27) (layer F.SilkS) (width 0.254))
@@ -318,12 +318,12 @@
     )
   )
 
-  (module connect:SIL-6 (layer F.Cu) (tedit 5354592E) (tstamp 534E23A2)
+  (module connect:SIL-6 (layer F.Cu) (tedit 53546C1C) (tstamp 534E23A2)
     (at 140.97 88.9 180)
     (descr "Connecteur 6 pins")
     (tags "CONN DEV")
     (path /534D4AAC)
-    (fp_text reference P1 (at -7.62 -2.54 180) (layer F.SilkS)
+    (fp_text reference P1 (at -8.89 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value FTDI (at 10.16 1.27 180) (layer F.SilkS) hide
@@ -605,10 +605,10 @@
     )
   )
 
-  (module discret:SW_PUSH_SMALL (layer F.Cu) (tedit 535455B8) (tstamp 534E2428)
+  (module discret:SW_PUSH_SMALL (layer F.Cu) (tedit 53546C28) (tstamp 534E2428)
     (at 128.905 86.36 90)
     (path /534CB8A7)
-    (fp_text reference SW1 (at 0 -2.54 90) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value RESET (at 0 -4.445 270) (layer F.SilkS)
@@ -629,7 +629,7 @@
       (net 23 /RESET))
   )
 
-  (module Crystals:Crystal_HC52-U_Vertical (layer F.Cu) (tedit 535331A6) (tstamp 534E2479)
+  (module Crystals:Crystal_HC52-U_Vertical (layer F.Cu) (tedit 53546BE2) (tstamp 534E2479)
     (at 156.845 50.8 270)
     (descr "Crystal, Quarz, HC52/U, vertical, stehend,")
     (tags "Crystal, Quarz, HC52/U, vertical, stehend,")
@@ -637,7 +637,7 @@
     (fp_text reference X1 (at 0 0 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value 16MHz (at 0 0 270) (layer F.SilkS) hide
+    (fp_text value 16MHz (at -8.255 0 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 1.4605 -1.19126) (end -1.50114 -1.19126) (layer F.SilkS) (width 0.381))
@@ -746,15 +746,15 @@
     )
   )
 
-  (module Discret:C1 (layer F.Cu) (tedit 53542C10) (tstamp 5353FC25)
+  (module Discret:C1 (layer F.Cu) (tedit 53546BEF) (tstamp 5353FC25)
     (at 156.845 57.785 90)
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /5353FBB6)
-    (fp_text reference C8 (at 3.81 -1.27 90) (layer F.SilkS)
+    (fp_text reference C8 (at -3.81 -0.635 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value 100nF (at 7.62 -1.27 90) (layer F.SilkS) hide
+    (fp_text value 100nF (at -5.08 0.635 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
